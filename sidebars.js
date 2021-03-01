@@ -41,6 +41,11 @@ module.exports = {
         label: "Debug",
         items: ["debug/wisn", "debug/hrh", "debug/hmis", "debug/cadre-average"],
       },
+      {
+        type: "category",
+        label: "User Module",
+        items: ["users/users"],
+      },
     ],
   },
 };
