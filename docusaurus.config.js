@@ -23,7 +23,7 @@ module.exports = {
           position: "left",
         },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/hisptz/wisn-user-manual/",
           label: "GitHub",
           position: "right",
         },
