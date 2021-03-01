@@ -1,51 +1,49 @@
 module.exports = {
-  title: 'WISN + POA',
-  tagline: 'WISN + POA user guide manual',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  title: "WISN + POA",
+  tagline: "WISN + POA user guide manual",
+  url: "https://hisptz.github.io/wisn-user-manual/",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "hisptz",
+  projectName: "wisn-user-manual",
   themeConfig: {
     navbar: {
-      title: 'WISN + POA',
+      title: "WISN + POA",
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: "My Site Logo",
+        src: "img/logo.svg",
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Manual',
-          position: 'left',
+          to: "docs/",
+          activeBasePath: "docs",
+          label: "Manual",
+          position: "left",
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/facebook/docusaurus",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       copyright: `Copyright © ${new Date().getFullYear()} UDSM-DHIS.`,
     },
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/hisptz/wisn-user-manual/edit/main/',
+          sidebarPath: require.resolve("./sidebars.js"),
+          editUrl: "https://github.com/hisptz/wisn-user-manual/edit/main/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
